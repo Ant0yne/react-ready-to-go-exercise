@@ -21,3 +21,9 @@ main {
 	background-color: var(--white);
 	color: var(--purple);
 }
+
+@media (min-width: 650px) {
+	main {
+		flex-direction: row-reverse;
+	}
+}

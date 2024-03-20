@@ -9,3 +9,10 @@ header {
 header img {
 	height: 50px;
 }
+
+@media (min-width: 650px) {
+	header {
+		justify-content: start;
+		gap: 10px;
+	}
+}
