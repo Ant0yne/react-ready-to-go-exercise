@@ -1,0 +1,14 @@
+.signal {
+	padding: 20px;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+}
+
+.go {
+	background-color: green;
+}
+
+.no-way {
+	background-color: red;
+}

@@ -4,6 +4,7 @@
 	--light-grey: #d3d3d3;
 	--white: #fff;
 	--black: #000;
+	--purple: #5c48d3;
 }
 
 * {
@@ -25,6 +26,9 @@ h1 {
 
 button {
 	font-family: "Roboto", sans-serif;
+	font-size: 2rem;
+	border: 1px solid var(--light-grey);
+	border-radius: 5px;
 }
 
 a {
@@ -35,4 +39,8 @@ a {
 a,
 span {
 	font-weight: bold;
+}
+
+p {
+	color: var(--white);
 }

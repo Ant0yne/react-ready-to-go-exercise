@@ -1,7 +1,23 @@
+main {
+	height: 69vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+#switchs button {
+	padding: 10px 20px;
+	margin: 10px;
+}
+
 .activate {
-	background-color: red;
+	background-color: var(--purple);
+	color: var(--white);
 }
 
 .deactivate {
-	background-color: white;
+	background-color: var(--white);
+	color: var(--purple);
 }
